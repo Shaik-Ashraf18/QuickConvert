@@ -1,0 +1,94 @@
+.main{
+  width: 100vw;
+  height:100vh;
+  background: linear-gradient(to right, #f1f2b5, #135058);
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+ justify-content: center;
+  align-items: center;
+  
+}
+.card{
+  width: 370px;
+  height:520px;
+  background-color:rgba(255, 255, 255, 0.581);
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.from
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.to
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#heading
+{
+  font-family:sans-serif;
+  color: #ffffff;
+  font-size: 42px;
+}
+.select{
+  width: 94px;
+  height: 45px;
+  text-overflow: ellipsis;
+  background-color: #d5ebff;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+}
+.inp
+{
+  height: 50px;
+  width:150px;
+  border:solid;
+  border-color: black;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 30px;
+  font-weight: 400;
+  background-color: #ffffff55;
+}
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn{
+  height: 50px;
+  width: 180px;
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  cursor: pointer;
+  color: #1a0216;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#message {
+  color: rgb(250, 1, 1);
+  animation: bounce 0.6s ease infinite;
+}
+
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-10px); }
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
